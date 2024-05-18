@@ -43,6 +43,34 @@ nav.navbar-transparente {
     text-align: center;
 }
 
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+.btn-branco {
+   border: 2px solid whi;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+ }
+
 /* ------Tipografia---------- */
 h1 {
     font-weight: 900;
@@ -51,9 +79,20 @@ h1 {
 }
 
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+ @media (max-width: 575.98px) { 
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+}
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576.98px) { 
     h1 {
         font-size: 3em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
     }
 
 }

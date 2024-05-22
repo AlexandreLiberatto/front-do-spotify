@@ -19,7 +19,7 @@
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
@@ -85,13 +85,49 @@
         <div class="row">
           <!-- row -->
           <div class="col-md-12 capa">
-            <h1>Música para todos</h1>
-            <a href="" class="btn btn-lg btn-custom btn-roxo"
-              >Aproveite o Spotify Free</a
+            <div
+              id="carousel-spotify"
+              class="carousel slide"
+              data-ride="carousel"
             >
-            <a href="" class="btn btn-lg btn-custom btn-branco"
-              >Obter o Spotify Premium</a
-            >
+              <div class="carousel-inner">
+                <!-- Inner -->
+                <div class="carousel-item active">
+                  <h1>Música para todos</h1>
+                  <a href="" class="btn btn-lg btn-custom btn-roxo"
+                    >Aproveite o Spotify Free</a
+                  >
+                  <a href="" class="btn btn-lg btn-custom btn-branco"
+                    >Obter o Spotify Premium
+                  </a>
+                </div>
+
+                <div class="carousel-item">
+                  <h1>As Melhores Rádios</h1>
+
+                  <a href="" class="btn btn-lg btn-custom btn-branco">
+                    <i class="fas fa-music"></i>Ouça Agora
+                  </a>
+                </div>
+              </div>
+              <!-- Inner -->
+
+              <!-- Controles -->
+              <a
+                href="#carousel-spotify"
+                class="carousel-control-prev"
+                data-slide="prev"
+              >
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+              <a
+                href="#carousel-spotify"
+                class="carousel-control-next"
+                data-slide="next"
+              >
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div>
           </div>
         </div>
         <!-- row -->
@@ -150,47 +186,54 @@
     </section>
     <!-- Fim serviços -->
 
-    <section id="recursos" class="caixa"> <!-- Inicio recursos -->
-      <div class="container"> <!-- Inicio container -->
-        <div class="row"> <!-- row -->
+    <section id="recursos" class="caixa">
+      <!-- Inicio recursos -->
+      <div class="container">
+        <!-- Inicio container -->
+        <div class="row">
+          <!-- row -->
           <div class="col-md-4">
             <h2>Fácil</h2>
             <h3>Buscar</h3>
-            <p>
-              Já sebe oque quer escutar? É só procurar e apertar o play.
-            </p>
+            <p>Já sebe oque quer escutar? É só procurar e apertar o play.</p>
 
             <h3>Navegar</h3>
             <p>
-              Veja os novos lançamentos, oque está bombando nas paradas 
-              e as melhores playlists para o seu momento.
+              Veja os novos lançamentos, oque está bombando nas paradas e as
+              melhores playlists para o seu momento.
             </p>
 
             <h3>Descobrir</h3>
             <p>
-              Curta músicas novas toda segundas feira com uma playlist 
+              Curta músicas novas toda segundas feira com uma playlist
               personalizada para você. Ou relaxe e curta uma das rádios.
             </p>
           </div>
           <div class="col-md-8">
             <div class="row rotacionar">
               <div class="col-md-6">
-                <img src="imagens/iphone1.png" class="img-fluid">
+                <img src="imagens/iphone1.png" class="img-fluid" />
               </div>
               <div class="col-md-6">
-                <img src="imagens/iphone2.png" class="img-fluid">
+                <img src="imagens/iphone2.png" class="img-fluid" />
               </div>
             </div>
           </div>
-        </div> <!-- row -->
-      </div> <!-- Fim container -->
-    </section> <!-- Fim recursos -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- Fim container -->
+    </section>
+    <!-- Fim recursos -->
 
-    <footer> <!-- inicio rodapé -->
-      <div class="container"> <!-- Inicio container -->
-        <div class="row"> <!-- Inicio row -->
+    <footer>
+      <!-- inicio rodapé -->
+      <div class="container">
+        <!-- Inicio container -->
+        <div class="row">
+          <!-- Inicio row -->
           <div class="col-md-2">
-            <img src="imagens/spotify.svg" width="142">
+            <img src="imagens/spotify.svg" width="142" />
           </div>
           <div class="col-md-2">
             <h4>Company</h4>
@@ -220,19 +263,22 @@
           <div class="col-md-4">
             <ul>
               <li>
-                <a href=""><img src="imagens/facebook.png"></a>
+                <a href=""><img src="imagens/facebook.png" /></a>
               </li>
               <li>
-                <a href=""><img src="imagens/twitter.png"></a>
+                <a href=""><img src="imagens/twitter.png" /></a>
               </li>
               <li>
-                <a href=""><img src="imagens/instagram.png"></a>
+                <a href=""><img src="imagens/instagram.png" /></a>
               </li>
             </ul>
           </div>
-        </div> <!-- Fim row -->
-      </div> <!-- Fim container -->
-    </footer> <!-- Fim rodapé -->
+        </div>
+        <!-- Fim row -->
+      </div>
+      <!-- Fim container -->
+    </footer>
+    <!-- Fim rodapé -->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
